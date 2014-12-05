@@ -1,10 +1,14 @@
 {
-    "name": "my-project-test",
-    "version": "0.1.0",
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.6.0",
-        "grunt-contrib-nodeunit": "~0.2.0",
-        "grunt-contrib-uglify": "~0.2.2"
-    }
+  "name": "my-project-test",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
+  "dependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-clean": "^0.6.0"
+  }
 }
